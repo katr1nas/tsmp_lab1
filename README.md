@@ -2,6 +2,7 @@
 
 ## Overview
 
+
 This project demonstrates the implementation of several **software design patterns** in Python using a pairs trading backtesting system.
 
 The system supports different hedge ratio estimation methods, including Static OLS, Rolling OLS, and Kalman Filter.
@@ -86,6 +87,8 @@ Usage:
 ```python
 estimator = EstimatorFactory.create("kalman")
 ```
+<img width="2708" height="2072" alt="image" src="https://github.com/user-attachments/assets/8d391e87-0b05-414b-b6da-e9306fa71295" />
+
 
 **Advantages:**
 - Centralizes object creation.
@@ -112,6 +115,8 @@ Run:
 ```bash
 python main.py
 ```
+
+
 
 ## Technologies
 
